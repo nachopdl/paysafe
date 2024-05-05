@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    color: #6f63ba;
+    background-image: url('../images/fondo2.webp'); /* Ruta de la imagen de fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    /* Otras propiedades de fondo opcionales */
+    background-position: center center; /* Posición de la imagen en el centro */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+   }
+   
+table, th, td {
+    background-color: #f2f2f2;
+    color: #6f63ba;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+   }
+   
+th {
+    background-color: #f2f2f2;
+    color: #6f63ba;
+   }

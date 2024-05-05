@@ -1,0 +1,24 @@
+/* Estilos para los formularios */
+form {
+    margin: 0 10px; /* Espacio entre formularios */
+}
+.container {
+    display: flex; /* Mostrar los formularios en línea */
+    justify-content: center; /* Centrar los formularios horizontalmente */
+}
+
+/* Estilos para los botones de generar informe */
+input[type="submit"] {
+    background-color: #6f63ba; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Quitar el borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar por encima */
+    font-size: 16px; /* Tamaño del texto */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #52479d; /* Cambio de color al pasar por encima */
+}

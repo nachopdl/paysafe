@@ -1,0 +1,98 @@
+.containerpp {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.containercl {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 350px;
+    border-color: #6f63ba;
+}
+.imagepp {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+}
+.imagecl {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+.user-info {
+    flex: 1;
+}
+.user-info span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.image-container {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align:center; /* Agregado para centrar el botón */
+    min-width: 80px;
+    max-width: 300px;
+    width: 30%;
+    height: 30%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align:center; /* Agregado para centrar el botón */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    /* Agregado para el marco morado y redondeado */
+    border-width: 5px;
+    border-radius: 30px; 
+    border-style: solid; 
+    border-color: rgba(113, 99, 186, 255); 
+    
+}
+.button {
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.close {
+    background: rgba(113, 99, 186, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
